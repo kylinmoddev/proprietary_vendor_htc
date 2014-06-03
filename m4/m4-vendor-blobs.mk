@@ -23,64 +23,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/m4/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/m4/proprietary/bin/thermald:system/bin/thermald \
-  vendor/htc/m4/proprietary/etc/tfa/deftcoefA_l.speaker:system/etc/tfa/deftcoefA_l.speaker \
-  vendor/htc/m4/proprietary/etc/tfa/deftcoefA.speaker:system/etc/tfa/deftcoefA.speaker \
-  vendor/htc/m4/proprietary/etc/tfa/fm.config:system/etc/tfa/fm.config \
-  vendor/htc/m4/proprietary/etc/tfa/fm.eq:system/etc/tfa/fm.eq \
-  vendor/htc/m4/proprietary/etc/tfa/fm_l.config:system/etc/tfa/fm_l.config \
-  vendor/htc/m4/proprietary/etc/tfa/fm_l.eq:system/etc/tfa/fm_l.eq \
-  vendor/htc/m4/proprietary/etc/tfa/fm_l.preset:system/etc/tfa/fm_l.preset \
-  vendor/htc/m4/proprietary/etc/tfa/fm.preset:system/etc/tfa/fm.preset \
-  vendor/htc/m4/proprietary/etc/tfa/playbackbeats.config:system/etc/tfa/playbackbeats.config \
-  vendor/htc/m4/proprietary/etc/tfa/playbackbeats.eq:system/etc/tfa/playbackbeats.eq \
-  vendor/htc/m4/proprietary/etc/tfa/playbackbeats_l.config:system/etc/tfa/playbackbeats_l.config \
-  vendor/htc/m4/proprietary/etc/tfa/playbackbeats_l.eq:system/etc/tfa/playbackbeats_l.eq \
-  vendor/htc/m4/proprietary/etc/tfa/playbackbeats_l.preset:system/etc/tfa/playbackbeats_l.preset \
-  vendor/htc/m4/proprietary/etc/tfa/playbackbeats.preset:system/etc/tfa/playbackbeats.preset \
-  vendor/htc/m4/proprietary/etc/tfa/playback.config:system/etc/tfa/playback.config \
-  vendor/htc/m4/proprietary/etc/tfa/playback.eq:system/etc/tfa/playback.eq \
-  vendor/htc/m4/proprietary/etc/tfa/playback_l.config:system/etc/tfa/playback_l.config \
-  vendor/htc/m4/proprietary/etc/tfa/playback_l.eq:system/etc/tfa/playback_l.eq \
-  vendor/htc/m4/proprietary/etc/tfa/playback_l.preset:system/etc/tfa/playback_l.preset \
-  vendor/htc/m4/proprietary/etc/tfa/playback.preset:system/etc/tfa/playback.preset \
-  vendor/htc/m4/proprietary/etc/tfa/recorder.config:system/etc/tfa/recorder.config \
-  vendor/htc/m4/proprietary/etc/tfa/recorder.eq:system/etc/tfa/recorder.eq \
-  vendor/htc/m4/proprietary/etc/tfa/recorder_l.config:system/etc/tfa/recorder_l.config \
-  vendor/htc/m4/proprietary/etc/tfa/recorder_l.eq:system/etc/tfa/recorder_l.eq \
-  vendor/htc/m4/proprietary/etc/tfa/recorder_l.preset:system/etc/tfa/recorder_l.preset \
-  vendor/htc/m4/proprietary/etc/tfa/recorder.preset:system/etc/tfa/recorder.preset \
-  vendor/htc/m4/proprietary/etc/tfa/ring.config:system/etc/tfa/ring.config \
-  vendor/htc/m4/proprietary/etc/tfa/ring.eq:system/etc/tfa/ring.eq \
-  vendor/htc/m4/proprietary/etc/tfa/ring_l.config:system/etc/tfa/ring_l.config \
-  vendor/htc/m4/proprietary/etc/tfa/ring_l.eq:system/etc/tfa/ring_l.eq \
-  vendor/htc/m4/proprietary/etc/tfa/ring_l.preset:system/etc/tfa/ring_l.preset \
-  vendor/htc/m4/proprietary/etc/tfa/ring.preset:system/etc/tfa/ring.preset \
-  vendor/htc/m4/proprietary/etc/tfa/tfa9887_l.patch:system/etc/tfa/tfa9887_l.patch \
-  vendor/htc/m4/proprietary/etc/tfa/tfa9887_l.speaker:system/etc/tfa/tfa9887_l.speaker \
-  vendor/htc/m4/proprietary/etc/tfa/tfa9887.patch:system/etc/tfa/tfa9887.patch \
-  vendor/htc/m4/proprietary/etc/tfa/tfa9887.speaker:system/etc/tfa/tfa9887.speaker \
-  vendor/htc/m4/proprietary/etc/tfa/video.config:system/etc/tfa/video.config \
-  vendor/htc/m4/proprietary/etc/tfa/video.eq:system/etc/tfa/video.eq \
-  vendor/htc/m4/proprietary/etc/tfa/video_l.config:system/etc/tfa/video_l.config \
-  vendor/htc/m4/proprietary/etc/tfa/video_l.eq:system/etc/tfa/video_l.eq \
-  vendor/htc/m4/proprietary/etc/tfa/video_l.preset:system/etc/tfa/video_l.preset \
-  vendor/htc/m4/proprietary/etc/tfa/video.preset:system/etc/tfa/video.preset \
-  vendor/htc/m4/proprietary/etc/tfa/voice.config:system/etc/tfa/voice.config \
-  vendor/htc/m4/proprietary/etc/tfa/voice.eq:system/etc/tfa/voice.eq \
-  vendor/htc/m4/proprietary/etc/tfa/voice_l.config:system/etc/tfa/voice_l.config \
-  vendor/htc/m4/proprietary/etc/tfa/voice_l.eq:system/etc/tfa/voice_l.eq \
-  vendor/htc/m4/proprietary/etc/tfa/voice_l.preset:system/etc/tfa/voice_l.preset \
-  vendor/htc/m4/proprietary/etc/tfa/voice.preset:system/etc/tfa/voice.preset \
-  vendor/htc/m4/proprietary/etc/tfa/voiceWB.eq:system/etc/tfa/voiceWB.eq \
-  vendor/htc/m4/proprietary/etc/tfa/voiceWB_l.eq:system/etc/tfa/voiceWB_l.eq \
-  vendor/htc/m4/proprietary/etc/tfa/voip.config:system/etc/tfa/voip.config \
-  vendor/htc/m4/proprietary/etc/tfa/voip.eq:system/etc/tfa/voip.eq \
-  vendor/htc/m4/proprietary/etc/tfa/voip_l.config:system/etc/tfa/voip_l.config \
-  vendor/htc/m4/proprietary/etc/tfa/voip_l.eq:system/etc/tfa/voip_l.eq \
-  vendor/htc/m4/proprietary/etc/tfa/voip_l.preset:system/etc/tfa/voip_l.preset \
-  vendor/htc/m4/proprietary/etc/tfa/voip.preset:system/etc/tfa/voip.preset \
   vendor/htc/m4/proprietary/etc/agps_rm:system/etc/agps_rm \
-  vendor/htc/m4/proprietary/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd:system/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd \
+  vendor/htc/m4/proprietary/etc/firmware/BCM4334B0_002.001.013.1352.1353.hcd:system/etc/firmware/BCM4334B0_002.001.013.1352.1353.hcd \
   vendor/htc/m4/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
   vendor/htc/m4/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
   vendor/htc/m4/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
@@ -171,12 +115,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
   vendor/htc/m4/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/m4/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
-  vendor/htc/m4/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-  vendor/htc/m4/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-  vendor/htc/m4/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-  vendor/htc/m4/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
   vendor/htc/m4/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
   vendor/htc/m4/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+  vendor/htc/m4/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
   vendor/htc/m4/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
   vendor/htc/m4/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/m4/proprietary/lib/libdiag.so:system/lib/libdiag.so \
